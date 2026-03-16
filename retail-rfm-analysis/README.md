@@ -1,53 +1,54 @@
-# Superstore Sales Analysis
+# Online Retail Customer Segmentation (RFM Analysis)
 
 **Author:** Marlon Suero  
 **Tools Used:** Python, pandas, matplotlib, seaborn  
-**Dataset:** Superstore Retail Dataset  
-**Project Type:** Exploratory Data Analysis (EDA)
+**Dataset:** Online Retail II Dataset  
+**Project Type:** Customer Analytics / RFM Segmentation
 
 ---
 
 ## Project Objective
-Analyze retail sales data to identify key revenue drivers, top customers, and seasonal sales patterns.
+Segment customers based on purchasing behavior using RFM (Recency, Frequency, Monetary) metrics to identify high-value and at-risk customers.
 
 ---
 
 ## Business Questions
-1. Which product categories generate the most revenue?  
-2. Which customers generate the highest lifetime value?  
-3. Which regions produce the most sales?  
-4. Are there seasonal sales trends?
+1. Which customers purchase most frequently?  
+2. Which customers generate the highest revenue?  
+3. Which customers have not purchased recently and may be at risk of churn?  
+4. How can customers be segmented into meaningful behavioral groups?
 
 ---
 
 ## Key Features
-- Data cleaning and preprocessing
-- Revenue analysis by product, region, and customer
-- Monthly and seasonal trend visualization
-- Top customer identification
+- Data cleaning and preprocessing for transaction-level data  
+- RFM calculation and segmentation  
+- Visualization of top products, countries, and monthly revenue trends  
+- Identification of high-value and at-risk customers
 
 ---
 
 ## How to Run
-1. Open `superstore_sales_analysis.ipynb` in Jupyter Notebook or VS Code.  
-2. Make sure you have Python 3.x installed with the following packages:
+1. Open `online_retail_rfm_analysis.ipynb` in Jupyter Notebook or VS Code.  
+2. Ensure Python 3.x and the following packages are installed:
    - pandas
    - numpy
    - matplotlib
    - seaborn
-3. Place `Sample - Superstore.csv` in the same folder as the notebook.  
+   - openpyxl
+3. Place `online_retail_II.xlsx` in the same folder as the notebook.  
 4. Run all cells sequentially to reproduce the analysis.
 
 ---
 
 ## Key Insights
-- Technology products generate the highest total revenue.  
-- A small group of customers contribute disproportionately to overall sales.  
-- Sales show seasonal spikes toward the end of the year.  
-- The West region consistently generates the most revenue.
+- A small percentage of customers generate the majority of total revenue.  
+- High purchase frequency correlates with higher lifetime value.  
+- Some customers show potential churn risk due to inactivity.  
+- RFM segmentation reveals actionable behavioral groups for targeted marketing.
 
 ---
 
 ## Conclusion
-This project demonstrates how retail sales data can be analyzed to inform business decisions.  
-Insights from this analysis can guide inventory planning, marketing strategies, and customer engagement initiatives.
+This project highlights the power of transaction-level analysis to segment customers.  
+Businesses can leverage these insights to optimize marketing campaigns, retain high-value clients, and improve overall revenue.
