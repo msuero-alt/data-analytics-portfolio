@@ -28,7 +28,7 @@ Analyze retail sales data to identify key revenue drivers, top customers, and se
 
 ---
 
-## Relevant Skills for Business Roles   ✅ ADD IT HERE
+## Relevant Skills for Business Roles 
 
 - Data cleaning and validation  
 - Handling customer and transaction records  
