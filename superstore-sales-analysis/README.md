@@ -28,6 +28,16 @@ Analyze retail sales data to identify key revenue drivers, top customers, and se
 
 ---
 
+## Relevant Skills for Business Roles   ✅ ADD IT HERE
+
+- Data cleaning and validation  
+- Handling customer and transaction records  
+- Aggregation and reporting  
+- Identifying inconsistencies in datasets  
+- Working with structured tabular data (similar to Excel workflows)
+
+---
+
 ## How to Run
 1. Open `superstore_sales_analysis.ipynb` in Jupyter Notebook or VS Code.  
 2. Make sure you have Python 3.x installed with the following packages:
