@@ -28,6 +28,16 @@ Segment customers based on purchasing behavior using RFM (Recency, Frequency, Mo
 
 ---
 
+## Relevant Skills for Business Roles
+
+- Data cleaning and validation  
+- Handling customer and transaction records  
+- Aggregation and reporting  
+- Identifying inconsistencies in datasets  
+- Working with structured tabular data (similar to Excel workflows)
+
+---
+
 ## How to Run
 1. Open `online_retail_rfm_analysis.ipynb` in Jupyter Notebook or VS Code.  
 2. Ensure Python 3.x and the following packages are installed:
