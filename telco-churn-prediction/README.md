@@ -32,6 +32,16 @@
 
 ---
 
+## Relevant Skills for Business Roles
+
+- Data cleaning and validation  
+- Handling customer and transaction records  
+- Aggregation and reporting  
+- Identifying inconsistencies in datasets  
+- Working with structured tabular data (similar to Excel workflows)
+
+---
+
 ## How to Run
 1. Open `customer_churn_market_basket.ipynb` in Jupyter Notebook or VS Code.  
 2. Install Python 3.x and required packages:
