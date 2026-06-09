@@ -4,7 +4,8 @@ This project demonstrates an end-to-end computer vision data pipeline that trans
 Demo: https://youtube.com/watch?v=luLLZKf26uw
  GitHub: https://github.com/msuero-alt/basketball-shot-trajectory
 
-![RFM Segments](docs/images/reconstructed_trajectory_result.png)
+### Final Trajectory Output
+![Trajectory](images/reconstructed_trajectory_result.png)
 
 Input video is processed frame-by-frame using a YOLOv8 object detection model 
 Ball coordinates are extracted from detections and structured into a time-series sequence 
@@ -13,13 +14,15 @@ Ball coordinates are extracted from detections and structured into a time-series
 Technologies: Python, OpenCV, YOLOv8, NumPy, Matplotlib
 Detection & Tracking Pipeline 
 
-2
+### Frame-by-frame Detection Logs
+![Logs](images/tracking_debug_console.png)
 
 The system logs frame-level detections and transitions from active tracking to predictive modeling once sufficient motion data is collected.
 
 System Pipeline Overview 
 
-3
+### System Pipeline Overview
+![Pipeline](images/system_pipeline_overview.png)
 
 End-to-end machine learning pipeline combining vision-based detection with physics-based trajectory reconstruction. 
 
