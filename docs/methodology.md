@@ -2,7 +2,7 @@ Basketball Trajectory Reconstruction ML Pipeline
 Computer vision system for trajectory extraction and physics-based motion reconstruction
 This project demonstrates an end-to-end computer vision data pipeline that transforms unstructured video into structured, time-series motion data for downstream analysis and physics-based modeling.
 Demo: https://youtube.com/watch?v=luLLZKf26uw
- GitHub: https://github.com/msuero-alt/basketball-shot-trajectory
+GitHub: https://github.com/msuero-alt/basketball-shot-trajectory
 
 ### Final Trajectory Output
 ![Trajectory](images/reconstructed_trajectory_result.png)
